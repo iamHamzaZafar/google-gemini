@@ -1,9 +1,12 @@
+import Main from "./main/Main"
+import Sidebar from "./sidebar/Sidebar"
 
 function App() {
 
   return (
     <>
-      <h1>Creating Google gemini clone</h1>
+      <Sidebar />
+      <Main />
     </>
   )
 }
